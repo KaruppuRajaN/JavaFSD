@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+<!-- bean definitions here -->
+<bean name="a" class="com.tcs.ioc.A" scope="singleton" init-method="myInit" destroy-method="myDestory"></bean>
+<bean name="b" class="com.tcs.ioc.B" autowire="byName">
+</bean>
+<bean name="c" class="com.tcs.ioc.C" autowire="constructor">
+</bean>
+
+
+<bean name="radius" class="com.tcs.ioc.Radius"></bean>
+<bean name="circle" class="com.tcs.ioc.Circle" autowire="byType"></bean>
+
+
+</beans>
