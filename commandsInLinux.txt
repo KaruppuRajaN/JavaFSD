@@ -1,0 +1,839 @@
+    1  sudo apt --only-upgrade install google-chrome-stable
+    2  sudo cloud-init clean
+    3  sudo vim ~/.bash_history 
+    4  java
+    5  man java
+    6  cd /home/labuser/tcs/karuppu/Day1CoreJava/src/com/tcs/oops/encapsulation/statictest
+    7  dir
+    8  javac CreateInvestors.java
+    9  cd ..
+   10  java -d . statictest.StaticDemo
+   11  java -d . /statictest.StaticDemo
+   12  <dependency>
+   13  </dependency>
+   14  mysql
+   15  sudo su
+   16  mysql -u root -p
+   17  sudo mysql --defaults-file=/etc/mysql/debian.cnf
+   18  cat /etc/mysql/debian.cnf
+   19  sudo cat /etc/mysql/debian.cnf
+   20  sudo cat /etc/mysql/mysql.c
+   21  sudo cat /etc/mysql/mysql.cnf
+   22  sudo cat /etc/mysql/mysql.cnf.d
+   23  mysql -u Root -p
+   24  sudo mysql -u Root -p
+   25  sudo mysql -u root -p
+   26  mysql -user root -p
+   27  mysql -u root -p
+   28  cd /home/labuser/tcs/karuppu/day5-hibernate
+   29  mvn clean package
+   30  find tomcat
+   31  tomcat
+   32  whereis tomcat
+   33  man mvn
+   34  mvn -version
+   35  env
+   36  cd /bin/env
+   37  ca /bin
+   38  cd /bin
+   39  cat env
+   40  cd $HOME
+   41  ls -a
+   42  cat .profile
+   43  cat .local
+   44  cd/etc
+   45  cd/home/labuser
+   46  cd /home/labuser
+   47  ls -a
+   48  cd Documents
+   49  mvn --help
+   50  gradle
+   51  mvn archetype:generate 
+   52  tree -f
+   53  cat tcs-training/pom.xml 
+   54  cd tcs-training/
+   55  vi pom.xml 
+   56  cat pom.xml 
+   57  mvn package
+   58  mvn clean package
+   59  tree -f
+   60  java .target.test-classes.com.tcs.mvndemo.AppTest
+   61  java -jar .target.test-classes.com.tcs.mvndemo.AppTest
+   62  java .target.test-classes.com.tcs.mvndemo.AppTest
+   63  cd target/
+   64  cd test-classes/
+   65  java com.tcs.mvndemo.AppTest 
+   66  cd ..
+   67  cd classes/
+   68  java com.tcs.mvndemo.App 
+   69  cat com/tcs/mvndemo/App.class 
+   70  java com.tcs.mvndemo.App 
+   71  cd com/tcs/mvndemo/
+   72  java App
+   73  git
+   74  git -version
+   75  git --version
+   76  which
+   77  hwereis
+   78  whereis
+   79  unmae
+   80  uname
+   81  git
+   82  cd Documents/
+   83  mkdir tcs-karuppu1
+   84  cd tcs-karuppu1/
+   85  gitstatus
+   86  git status
+   87  git init
+   88  ls
+   89  ls -a
+   90  cat >a.txt
+   91  cat a.txt
+   92  gedit a.txt
+   93  cat a.txt
+   94  git init
+   95  git status
+   96  git add a.txt
+   97  git status
+   98  git rm --cached a.txt
+   99  git status
+  100  git add a.txt
+  101  git status
+  102  touch gitignore
+  103  gedit gitignore
+  104  git status
+  105  mv gitignore .gitignore
+  106  git status
+  107  cat .git
+  108  cat .gitignore 
+  109  git status
+  110  git rm --cache a.txt
+  111  git status
+  112  gedit .gitignore 
+  113  git status
+  114  rm .gitignore 
+  115  git status
+  116  git add a.txt
+  117  git commit -m "My First Commit"
+  118  git config --global user.email "you@example.com"
+  119  git config --global user.email "karuppuraja21@gmail.com"
+  120  git config --global user.name "KaruppuRaja21"
+  121  git config --global user.name "KaruppuRajaN"
+  122  git commit -m "My First Commit"
+  123  git logs
+  124  git log
+  125  git show
+  126  git show 0085
+  127  git show 31212
+  128  git show 3121
+  129  gedit a.txt
+  130  git status
+  131  git add a.txt
+  132  git commit -m "My Second Commit"
+  133  git log
+  134  git show diff
+  135  git diff 7079 0085
+  136  git diff 0085 7079
+  137  git diff 0085
+  138  git diff 7079
+  139  git diff 0085 7079
+  140  git reset a.txt
+  141  gedit a.txt
+  142  git reset 00854b37c1104db3205cefe9077adc6e31806ab5
+  143  gedit a.txt
+  144  git status
+  145  cat a.txt
+  146  git log
+  147  git add a.txt
+  148  git commit -m "Second Commit"
+  149  git log
+  150  git checkout -- a.txt
+  151  cat a.txt
+  152  gedit a.txt
+  153  cat a.txt
+  154  git checkout -- a.txt
+  155  cat a.txt
+  156  git log
+  157  git checkout 00854b37c1104db3205cefe9077adc6e31806ab5
+  158  git log
+  159  cat a.txt
+  160  git diff 0085 7079
+  161  git diff 7079 0085
+  162  git log
+  163  git checkout 7079
+  164  git log
+  165  gedit b.txt
+  166  git bash
+  167  git
+  168  cd Documents/
+  169  ls
+  170  mkdir tcsgithub
+  171  cd tcsgithub/
+  172  git init
+  173  ls
+  174  echo "# tcsfsd" >> README.md
+  175  ls
+  176  cat README.md 
+  177  git add README.md 
+  178  git commit -m "first commit"
+  179  git branch -M main
+  180  git remote add origin https://github.com/KaruppuRajaN/tcsfsd.git
+  181  git push -u origin main
+  182  git remote add origin git@github.com:KaruppuRajaN/tcsfsd.git
+  183  git push -u origin main
+  184  git push https://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@github.com:KaruppuRajaN/tcsfsd.git
+  185  git push https://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@github.com/KaruppuRajaN/tcsfsd.git
+  186  git status
+  187  gedit Math.java
+  188  cat Math.java
+  189  git status
+  190  git add Math.java 
+  191  git status
+  192  git commit -m "Second Commit"
+  193  git status
+  194  git push -u origin main
+  195  git push https://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@github.com:KaruppuRajaN/tcsfsd.git
+  196  git push https://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@github.com/KaruppuRajaN/tcsfsd.git
+  197  git push origin
+  198  git push origin main
+  199  git status
+  200  git pull https://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@github.com/KaruppuRajaN/tcsfsd.git
+  201  ls -a
+  202  cat Calculations.java 
+  203  git pull
+  204  git pull origin
+  205  git log
+  206  cd /home/labuser/Downloads/
+  207  lombok.jar
+  208  java -jar lombok.jar 
+  209  whois www.google.com
+  210  whoami
+  211  ping www.google.com
+  212  wget www.google.com
+  213  ls
+  214  sudo su
+  215  cd /home/labuser/tcs/karuppu/springboot/day13-boot-rest-exception/
+  216  mvn spring-boot: run
+  217  mvn spring-boot:run
+  218  expr `5+5`
+  219  expr `5 + 5`
+  220  man expr
+  221  expr 5+5
+  222  expr '5 + 5'
+  223  expr 10/z84
+  224  echo "KAruppu Raja".cut 1 2
+  225  echo "KAruppu Raja" cut 1 2
+  226  echo "KAruppu Raja"|cut 1 2
+  227  man cut
+  228  5+5
+  229  python
+  230  pip install numpy
+  231  apt get install metasploit
+  232  sudo apt get install metasploit
+  233  sudo apt install metasploit
+  234  metasploit
+  235  nmap
+  236  apt install nmap
+  237  sudo apt install nmap
+  238  nmap
+  239  exit
+  240  curl
+  241  ls -a
+  242  ls -f
+  243  ls -la
+  244  gedit a.sh
+  245  chmod +x a.sh 
+  246  ./a.sh
+  247  gedit a.sh
+  248  chmod +x a.sh 
+  249  ./a.sh
+  250  gedit a.sh
+  251  chmod +x a.sh 
+  252  gedit a.sh
+  253  ./a.sh
+  254  gedit a.sh
+  255  python
+  256  ./a.sh
+  257  bash
+  258  protonmail
+  259  ng --version
+  260  ng -version
+  261  npm
+  262  ng
+  263  npm -version
+  264  npm install -g @angular/cli
+  265  npm install -g npm@10.4.0
+  266  npm install -g @angular/cli@11.2.5
+  267  npm install -g @angular/cli@9.1.9
+  268  sudo su
+  269  ng -version
+  270  ng --help
+  271  ng version
+  272  ng --version
+  273  ng version
+  274  mongodb
+  275  mongod
+  276  mongo
+  277  start
+  278  gedit a.c
+  279  gcc a.c
+  280  ./a.out 
+  281  cd /home/labuser/config-server/
+  282  git init
+  283  touch application.properties
+  284  gedit application.properties 
+  285  cat application.properties 
+  286  user.home
+  287  git status
+  288  git add .
+  289  git commit -m "First Commit"
+  290  git sttaus
+  291  git status
+  292  ls -a
+  293  cd Desktop/
+  294  mkdir InvestmentPortfolioAngularApp
+  295  cd InvestmentPortfolioAngularApp/
+  296  ng new nvestmentPortfolioAngularApp
+  297  ls
+  298  rm -rf nvestmentPortfolioAngularApp/
+  299  ls
+  300  ng new nvestmentPortfolioAngularApp
+  301  npm install primeng
+  302  ls
+  303  cd nvestmentPortfolioAngularApp/
+  304  npm install primeng
+  305  cd ..
+  306  rm -rf node_modules/
+  307  ls
+  308  rm package.json 
+  309  rm package-lock.json 
+  310  mv nvestmentPortfolioAngularApp/ InvestmentPortfolioAngularApp/
+  311  cd InvestmentPortfolioAngularApp/
+  312  ng add @angular/material
+  313  ng serve
+  314  ng add primeng
+  315  ng serve
+  316  ng generate service investmentapp
+  317  ng generate service service/investmentapp
+  318  ng serve
+  319  cd Des
+  320  cd Desktop/
+  321  cd InvestmentPortfolioAngularApp/
+  322  mkdir 1
+  323  cd 1
+  324  ls
+  325  ls -la
+  326  mkdir InvestmentPortfolioAngularApp
+  327  rm -rf InvestmentPortfolioAngularApp/
+  328  ng new --no-standalone InvestmentPortfolioAngularApp
+  329  cd InvestmentPortfolioAngularApp/
+  330  ng add @angular/material
+  331  npm install primeng
+  332  ng g service service/investmentapp
+  333  ng serve
+  334  cd ..
+  335  git init
+  336  git status
+  337  gedit .gitignore
+  338  cat >.gitignore
+  339  cat .gitignore 
+  340  git status
+  341  git add .
+  342  git status
+  343  cd InvestmentPortfolioAngularApp/
+  344  git init
+  345  cat .gitignore 
+  346  git status
+  347  git add .
+  348  git commit -m "InitialSetupCommit with Sample Login Page"
+  349  git push https://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@github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  350  git push --set-upstream https://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@github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git master
+  351  ng g create login/login
+  352  ng g component login/login
+  353  ng serve
+  354  ng version
+  355  ng serve
+  356  ng serve --open
+  357  ng serve --port 4300
+  358  ng serve --port 4300 --open\
+  359  ng serve --port 4300 --open
+  360  ng serve --port 430 --open
+  361  npm --version
+  362  node --version
+  363  ng version
+  364  cd Desktop/
+  365  mkdir angularTemp
+  366  mv angularTemp/ AnularClassProject
+  367  ng new first-app
+  368  cd AnularClassProject/
+  369  ng new first-app
+  370  cd first-app/
+  371  cd ..
+  372  vscode first-app/
+  373  ng serve
+  374  ng g component binding/binding
+  375  ng serve
+  376  ng new --no-standalone SecondApp
+  377  code .
+  378  ls
+  379  cd SecondApp/
+  380  code .
+  381  ng g component binding
+  382  ng serve
+  383  cd ..
+  384  zip -r AIPMS.zip AIPMS/
+  385  ng g component display
+  386  ng serve
+  387  git init
+  388  git status
+  389  git add .
+  390  git status
+  391  git commit -m "This is API, Kindly Don't pull this"
+  392  git checkout APIPROVIDERFORSTOCK
+  393  git checkout -b APIPROVIDERSTOCK
+  394  git add .
+  395  git status
+  396  sdsdsdgit push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  397  git push https://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@github.com/ya-its-yasin/AIPMS.git APIPROVIDERSTOCK
+  398  git status
+  399  git add .
+  400  git commit -m "added mfunds module part 1"
+  401  git push origin dev
+  402  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  403  git fetch https://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@github.com/ya-its-yasin/AIPMS.git dev
+  404  git merge
+  405  git merge https://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@github.com/ya-its-yasin/AIPMS.git dev
+  406  git merge https://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@github.com/ya-its-yasin/AIPMS.git/dev
+  407  git status
+  408  git merge origin/dev
+  409  git status
+  410  git log
+  411  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  412  git push https://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@github.com/ya-its-yasin/AIPMS.git
+  413  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  414  git status
+  415  git add .
+  416  git status
+  417  git commit -m "Stock Changes 1"
+  418  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  419  cd Downloads
+  420  cat TCS.NS.csv 
+  421  cat TCS.NS (1).csv
+  422  cat "TCS.NS (1).csv"
+  423  cat "TCS.NS (2).csv"
+  424  cat "TCS.NS (3).csv"
+  425  cat "TCS.NS (4).csv"
+  426  cat "TCS.NS (5).csv"
+  427  cat "TCS.NS (6).csv"
+  428  zip -r AIPMSFeb20.zip AIPMS/
+  429  cd Downloads/
+  430  cat "TCS.NS (8).csv"
+  431  cat "TCS.NS (10).csv"
+  432  ng g component http
+  433  ng serve
+  434  ng g component crud/post
+  435  ng g component crud/update
+  436  ng g component crud/delete
+  437  ng g component crud/fetch
+  438  ng g service services/product
+  439  ng serve
+  440  cd Downloads/
+  441  cat TCS.NS
+  442  ls
+  443  cat TCS.NS.csv 
+  444  cat "TCS.NS (10).csv"
+  445  cat "TCS.NS (4).csv"
+  446  cd ..
+  447  cd Desktop/
+  448  ls
+  449  cd InvestmentPortfolioAngularApp/
+  450  ls
+  451  cd 1
+  452  ls
+  453  cd SpringBootApp/
+  454  ls
+  455  cd AIPMS/
+  456  git status
+  457  git add .
+  458  git commit -m "Mutual Fund Inital and Last Actions Added"
+  459  git status
+  460  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  461  git status
+  462  git add .
+  463  git commit -m "Mutual Fund Update Calculations Added"
+  464  git status
+  465  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  466  cd ..
+  467  zip -r AIPMSFeb21eve.zip AIPMS/
+  468  cd AIPMS/
+  469  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  470  git status
+  471  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  472  cd Desktop/
+  473  cd InvestmentPortfolioAngularApp/
+  474  cd 1
+  475  ls
+  476  cd SpringBootApp/
+  477  ls
+  478  zip -r AIPMSFeb21night.zip AIPMS/
+  479  cd AIPMS/
+  480  git status
+  481  git add .
+  482  git commit -m "Mutual Funds Recommendation - N Options"
+  483  git status
+  484  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  485  cd Desktop/
+  486  cd InvestmentPortfolioAngularApp/
+  487  cd1
+  488  cd 1
+  489  ls
+  490  cd SpringBootApp/
+  491  ls
+  492  zip -r AIPMSFeb22Mrng.zip AIPMS/
+  493  git status
+  494  ls
+  495  git AIPMS
+  496  git status
+  497  cd AIPMS/
+  498  git status
+  499  git add .
+  500  git commit -m "Permutation return count Limit Added"
+  501  git status
+  502  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  503  cd Desktop
+  504  ng new --no-standalone HiApp
+  505  ng g component crud/findbyid
+  506  ng serve
+  507  cd ..
+  508  cd SecondApp/
+  509  ng test
+  510  cd Desktop/
+  511  ls
+  512  cd InvestmentPortfolioAngularApp/
+  513  ls
+  514  cd 1
+  515  ls
+  516  cd SpringBootApp/
+  517  ls
+  518  zip -r AIPMSFeb22N8.zip AIPMS/
+  519  ls
+  520  cd AIPMS/
+  521  ls
+  522  git status
+  523  git add .
+  524  git commit -m "User Buy and Sell Mutual Fund List Added"
+  525  git status
+  526  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  527  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  528  git status
+  529  git commit -m "User Buy and Sell Mutual Fund List Added"
+  530  git push https://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@github.com/ya-its-yasin/AIPMS.git
+  531  cd Desktop/
+  532  ls\
+  533  ls
+  534  cd AnularClassProject/
+  535  cd ..
+  536  cd InvestmentPortfolioAngularApp/
+  537  ls
+  538  cd 1
+  539  ls
+  540  cd SpringBootApp/
+  541  ls
+  542  zip -r AIPMSFeb22N8-2.zip AIPMS/
+  543  cd AIPMS/
+  544  ls
+  545  git status
+  546  git add .
+  547  git coomit -m "RestTemplate API Calls Added"
+  548  git commit -m "RestTemplate API Calls Added"
+  549  ls
+  550  git status
+  551  git push https://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@github.com/ya-its-yasin/AIPMS.git
+  552  ipconfig
+  553  hostname
+  554  cd ..
+  555  ls
+  556  ng new --no-standalone InvestmentApp
+  557  ng -g service service/rest
+  558  ng g service service/rest
+  559  ng g c userdetail
+  560  ng add @angular/material
+  561  ng serve
+  562  cd InvestmentApp/
+  563  ng serve rve
+  564  ng serve
+  565  npm install primeng
+  566  ng serve
+  567  ng g component Investors
+  568  ng serve
+  569  ng g component addinvestor
+  570  ng serve
+  571  ng g component listtransactions
+  572  ng serve
+  573  ng g component addtransaction
+  574  ng serve
+  575  ng g component deletetransaction
+  576  ng serve
+  577  git status
+  578  git add /.
+  579  git add .
+  580  git status
+  581  git commit -m "Week 4 Assignment"
+  582  git push https://github.com/KaruppuRajaN/AngularWeek4.git
+  583  git checkout main
+  584  git branch assignment
+  585  git checkout branch
+  586  git checkout assignment
+  587  git status
+  588  git push https://github.com/KaruppuRajaN/AngularWeek4.git
+  589  git push --set-upstream https://github.com/KaruppuRajaN/AngularWeek4.git main
+  590  git push --set-upstream https://github.com/KaruppuRajaN/AngularWeek4.git master
+  591  ng g component mutualfunds/displayoptions
+  592  ng g component mutualfunds/buymutualfunds
+  593  ng g component mutualfunds/ownmutualfunds
+  594  ng serve
+  595  git status
+  596  git add .
+  597  git status
+  598  git add .
+  599  git commit -m "Stage 1 - MutualFunds Completed"
+  600  git push origin
+  601  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  602  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  603  ng serve
+  604  git status
+  605  git add .
+  606  git commit -m "Stage 1 - MutualFunds Completed With App.Module File"
+  607  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  608  ng serve
+  609  cd Downloads/
+  610  curl -sSL https://zipkin.io/quickstart.sh | bash -s
+  611  java -jar zipkin.jar
+  612  ng serve
+  613  git status
+  614  git add .
+  615  git commit -m "Stage 2 - Mutual Funds Completed"
+  616  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  617  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  618  git status
+  619  git add .
+  620  git commit -m "Stage 2 - Mutual Funds Completed With UserProfile"
+  621  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  622  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  623  ng serve
+  624  git status
+  625  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  626  git status
+  627  git add .
+  628  git commit -m "Loical Change"
+  629  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  630  git status
+  631  git add .
+  632  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  633  git commit -m "Local Changes"
+  634  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  635  ng serve
+  636  git add .
+  637  git status
+  638  git commit -m "CSS Changes - Mutual Fund"
+  639  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  640  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  641  git status
+  642  git add .
+  643  git commit -m "CSS Changes - Mutual Fund"
+  644  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  645  ng serve
+  646  ls
+  647  zip -r AIPMSFeb27-2.zip AIPMS/
+  648  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  649  git status
+  650  git add .
+  651  ls
+  652  cd AIPMS/
+  653  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  654  git status
+  655  git add .
+  656  git commit -m "Feb 27 Commit"
+  657  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  658  git status
+  659  git add .
+  660  git status 
+  661  git commit -m "Local System Commit"
+  662  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  663  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  664  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  665  cd Desktop/
+  666  ls
+  667  cd InvestmentPortfolioAngularApp/
+  668  cd 1
+  669  ls
+  670  cd SpringBootApp/
+  671  ls
+  672  cd AIPMS/
+  673  cd ..
+  674  zip -r AIPMSFeb27-N8.zip AIPMS/
+  675  cd AIPMS/
+  676  git status
+  677  git add .
+  678  git status
+  679  git commit -m "Purchased Mutual Funds Return Update Amount Batch Completed"
+  680  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  681  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  682  git status
+  683  git add .
+  684  git commit -m "Purchased Mutual Funds Return Update Amount Batch Completed"
+  685  git status
+  686  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  687  ng serve
+  688  git status 
+  689  git add .
+  690  git status
+  691  git commit -m "Mutual Funds Pagination Added"
+  692  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  693  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  694  git status
+  695  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  696  ng serve
+  697  cd Desktop/InvestmentPortfolioAngularApp/1/sp
+  698  cd Desktop/InvestmentPortfolioAngularApp/1/SpringBootApp/
+  699  ls
+  700  zip -r AIPMSFeb27-N82.zip AIPMS/
+  701  git add .
+  702  git commit -m "ServiceImpl to Service Objects Changed"
+  703  cd AIPMS/
+  704  git add .
+  705  git status
+  706  git commit -m "ServiceImpl to Service Objects Changed"
+  707  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  708  cd Desktop
+  709  mkdir dockerimages
+  710  docker run ubuntu
+  711  sudo docker run ubuntu
+  712  ls
+  713  cd dockerimages/
+  714  sudo docker run ubuntu
+  715  ls
+  716  ls -a
+  717  dockerimages
+  718  docker images
+  719  sudo docker images
+  720  sudo docker run ubuntu:latest
+  721  docker ps
+  722  sudo su
+  723  code .
+  724  ls
+  725  ls -la
+  726  ls -a
+  727  docker build -t hello-app:1.0 .
+  728  sudo su
+  729  mkdir express
+  730  mkdir express1
+  731  docker build -t express-app:1.0 .
+  732  sudo su
+  733  docker ps -a
+  734  sudo su
+  735  ng serve
+  736  mvn clean package
+  737  dir
+  738  docker build -t boot-docker-tcs:latest .
+  739  sudo su
+  740  git status
+  741  git add .
+  742  git commit -m "Basic Commit"
+  743  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  744  ng serve
+  745  ng g component mutualfunds/mutualprocess
+  746  ng serve
+  747  git status
+  748  git add .
+  749  git commit -m "Mutual Fund Updation"
+  750  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  751  git pull https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  752  ng serve
+  753  git add .
+  754  git status
+  755  git commit -m "Updated Mutual Funds Component"
+  756  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  757  ng serve
+  758  git add .
+  759  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  760  git commit -m "Updated Mutual Funds Component"
+  761  git push https://github.com/KaruppuRajaN/InvestmentPortfolioAngularApp.git
+  762  cDe
+  763  cd Desktop/
+  764  ls
+  765  cd InvestmentPortfolioAngularApp/
+  766  cd 1
+  767  cd spr
+  768  cd SpringBootApp/
+  769  zip -r AIPMSFeb28-N82.zip AIPMS/
+  770  cd AIPMS/
+  771  git status
+  772  git add .
+  773  git commit -m "Mutual FUnds Updated"
+  774  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  775  git pull https://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@github.com/ya-its-yasin/AIPMS.git dev
+  776  git status
+  777  git add .
+  778  git commit -m "Mutual FUnds Updated"
+  779  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  780  git add .
+  781  git commit -m "Mutual FUnds Updated"
+  782  git push https://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@github.com/ya-its-yasin/AIPMS.git dev
+  783  kubectl describes nodes
+  784  kubectl describe nodes
+  785  minikube dashboard
+  786  gedit nginx-dep.yaml
+  787  mkdir tcs-nginx
+  788  mv nginx-dep.yaml tcs-nginx/
+  789  cd tcs-nginx/
+  790  gedit nginx-dep.yaml
+  791  gedit nginx-service.yml
+  792  kubectl -f nginx-dep.yaml 
+  793  kubectl apply -f nginx-dep.yaml 
+  794  kubectl apply -f nginx-service.yml 
+  795  ls
+  796  kubectl get deployments
+  797  kubectl get pods
+  798  kubectl get services
+  799  kubectl describe nodes
+  800  kubectl get services
+  801  kubectl port-forward nginx-svc 7080:80
+  802  kubectl port-forward service/nginx-svc 7080:80
+  803  minikube dashboard
+  804  kubectl scale deployment nginx-deployment --replicas=10
+  805  kubectl get deployments
+  806  minkube start --driver docker
+  807  minikube start --driver docker
+  808  kubectl
+  809  kubectl create deployment hello-minikube --image=kicbase/echo-server:1.0
+  810  curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  811  sudo install minikube-linux-amd64 /usr/local/bin/minikube
+  812  Start minikube:
+  813  minikube start
+  814  kuberctl get deployments
+  815  kubectl get deployments
+  816  sudo su
+  817  sudo usermod -aG docker $USER
+  818  sudo chmod 666 /var/run/docker.sock
+  819  minikube start
+  820  kubectl get deployments
+  821  kubectl get pods
+  822  kubectl create deployment hello-minikube --image=kicbase/echo-server:1.0
+  823  kubectl get deployments
+  824  kubectl get pods
+  825  kubectl expose deployment hello-minikube --type=NodePort --port=8080
+  826  kubectl get services hello-minikube
+  827  minikube service hello-minikube
+  828  ng serve
+  829  git init
+  830  git add .
+  831  git status
+  832  git add .
+  833  git rm --cached InvestmentAppSpringBoot/apiprovider
+  834  git add .
+  835  git rm --cached InvestmentAppSpringBoot
+  836  git init
+  837  git add .
+  838  history
+  839  history >> commandsInLinux.txt
